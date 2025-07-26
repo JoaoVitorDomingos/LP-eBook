@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 :root {
-    --cor_fundo: #FAFAF5;
-    --cor_fundo2: #F2F9F4;
     --cor_principal: #77B28C;
     --cor_secundaria: #BCE3C5;
+    --cor_branco: #FAFAF5;
+    --cor_branco2: #F2F9F4;
     --cor_preto: #333333;
     --cor_verde_escuro: #042A2B;
     --cor_destaque: #772E25;
@@ -21,19 +21,24 @@
 }
 
 body {
-    background-color: var(--cor_fundo);  
+    background-color: var(--cor_branco);  
+}
+
+section {
+    padding: 40px 20px;
 }
 
 h1 {
     font-family: var(--fonte_titulo_principal);
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
+    text-align: center;
     color: var(--cor_principal);
 }
 
 h2 {
     font-family: var(--fonte_titulo_secundario);
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
@@ -42,6 +47,11 @@ p {
     font-size: 1.175rem;
     font-weight: 400;
     color: var(--cor_preto);
+}
+
+.destaque {
+    font-weight: bold;
+    color: var(--cor_principal);
 }
 
 .btn {
@@ -55,10 +65,29 @@ p {
     font-size: 1.075rem;
     text-decoration: none;
     color: var(--cor_preto);
+
+    transition: background-color 0.3s;
 }
 
 .btn:hover {
     cursor: pointer;
     font-weight: bold;
     box-shadow: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    background-color: black;
+    opacity: 0.7;
+}
+
+.conteudo > * {
+    position: relative;
+    z-index: 1;
 }
