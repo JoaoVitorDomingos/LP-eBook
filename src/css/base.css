@@ -1,7 +1,64 @@
 @charset "UTF-8";
 
+:root {
+    --cor_fundo: #FAFAF5;
+    --cor_fundo2: #F2F9F4;
+    --cor_principal: #77B28C;
+    --cor_secundaria: #BCE3C5;
+    --cor_preto: #333333;
+    --cor_verde_escuro: #042A2B;
+    --cor_destaque: #772E25;
+
+    --fonte_titulo_principal: "Quicksand", sans-serif;
+    --fonte_titulo_secundario: "Poppins", sans-serif;
+    --fonte_texto: "Nunito", "Work Sans", sans-serif;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor_fundo);  
+}
+
+h1 {
+    font-family: var(--fonte_titulo_principal);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--cor_principal);
+}
+
+h2 {
+    font-family: var(--fonte_titulo_secundario);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+p {
+    font-family: var(--fonte_texto);
+    font-size: 1.175rem;
+    font-weight: 400;
+    color: var(--cor_preto);
+}
+
+.btn {
+   --_btn_shadow_color: var(--btn_shadow_color, rgba(0, 0, 0, 0.305));
+
+    background-color: var(--cor_principal);
+    border-radius: 10px;
+    padding: 0.3em 1.2em;
+    box-shadow: 1px 1px 3px var(--_btn_shadow_color);
+
+    font-size: 1.075rem;
+    text-decoration: none;
+    color: var(--cor_preto);
+}
+
+.btn:hover {
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: none;
 }
