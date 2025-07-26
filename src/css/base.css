@@ -9,6 +9,8 @@
     --cor_verde_escuro: #042A2B;
     --cor_destaque: #772E25;
 
+    --sombra_verde_escuro: #042a2b67;
+
     --fonte_titulo_principal: "Quicksand", sans-serif;
     --fonte_titulo_secundario: "Poppins", sans-serif;
     --fonte_texto: "Nunito", "Work Sans", sans-serif;
@@ -26,6 +28,7 @@ body {
 
 section {
     padding: 40px 20px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -46,6 +49,7 @@ p {
     font-family: var(--fonte_texto);
     font-size: 1.175rem;
     font-weight: 400;
+    text-align: justify;
     color: var(--cor_preto);
 }
 

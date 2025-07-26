@@ -1,5 +1,6 @@
 @import url(./base.css);
 
+/* Hero Section */
 .hero {
     background: url("../imgs/backgrounds/back1.jpg") center center no-repeat scroll;
     background-size: cover;
@@ -36,4 +37,55 @@
 .hero .btn:hover {
     background-color: var(--cor_destaque);
     color: white;
+}
+
+/* Section Conexão */
+.conexao h1 {
+    margin-bottom: 40px;
+}
+
+.conexao > .container_conex {
+    display: grid;
+    grid-template: repeat(4, auto) / auto;
+    justify-content: center;
+    align-content: center;
+    row-gap: 20px;
+}
+
+.conex {
+    padding: 10px;
+    background-color: var(--cor_branco2);
+    border: 2px solid var(--cor_principal);
+    border-radius: 7px;
+    box-shadow: 1px 1px 3px var(--sombra_verde_escuro);
+
+    display: flex;
+}
+
+/* .conex .titulo {
+    display: flex;
+    align-items: center;
+
+    color: var(--cor_principal);
+
+    margin-bottom: 10px;
+} */
+
+.conex > i {
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 2.2rem;
+    color: var(--cor_principal);
+}
+
+.conex h2 {
+    font-size: 1.1rem;
+    text-align: justify;
+    color: var(--cor_principal);
+    margin-bottom: 10px;
+}
+
+.conex p {
+    font-size: 1.075rem;
+    text-indent: 3px;
 }
