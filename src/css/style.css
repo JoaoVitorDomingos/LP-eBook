@@ -2,7 +2,7 @@
 
 /* Hero Section */
 .hero {
-    background: url("../imgs/backgrounds/back1.jpg") center center no-repeat scroll;
+    background: url("../imgs/backgrounds/back1.jpg") center center no-repeat fixed;
     background-size: cover;
 
     position: relative;
@@ -80,6 +80,8 @@
 /* Section Interesse */
 section.interesse {
     background-color: var(--cor_secundaria);
+    margin-bottom: 0;
+    padding-bottom: 60px;
 }
 
 section.interesse > h1 {
@@ -167,3 +169,50 @@ section.interesse > div {
     border: 2px solid var(--cor_verde_escuro);
     color: var(--cor_verde_escuro);
 }
+
+/* Section Depoimentos */
+section.depoimentos {
+    background: url("../imgs/backgrounds/back2.jpg") center center no-repeat fixed;
+    background-size: cover;
+
+    position: relative;
+}
+
+.container_depoimentos {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 30px;
+    justify-content: center;
+}
+
+.depoimento {
+    background-color: var(--cor_branco);
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.344);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.depoimento img {
+    border-radius: 50%;
+    width: 25%;
+    margin-bottom: 15px;
+}
+
+.depoimento_conteudo h3 {
+    font-family: var(--fonte_titulo_secundario);
+    font-weight: 500;
+    font-size: 1.275rem;
+    text-align: center;
+    color: var(--cor_preto);
+    margin-bottom: 10px;
+}
+
+.depoimento_conteudo p {
+    font-size: 1.1rem;
+}
+
