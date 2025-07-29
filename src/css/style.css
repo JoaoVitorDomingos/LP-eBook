@@ -88,7 +88,7 @@ section.interesse > h1 {
     color: var(--cor_verde_escuro);
 }
 
-section.interesse > div {
+div.container {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -176,6 +176,8 @@ section.depoimentos {
     background-size: cover;
 
     position: relative;
+    margin-bottom: 0;
+    padding-bottom: 60px;
 }
 
 .container_depoimentos {
@@ -216,3 +218,27 @@ section.depoimentos {
     font-size: 1.1rem;
 }
 
+/* Sessão depoimentos */
+section.resultados {
+    background-color: var(--cor_secundaria);
+}
+
+section.resultados > h1 {
+    color: var(--cor_verde_escuro);
+}
+
+.container_img img {
+    box-shadow: none;
+}
+
+section.resultados .conteudo_item :is(i, p) {
+    color: var(--cor_preto);
+}
+
+section.resultados .conteudo_item .destaque {
+    color: var(--cor_verde_escuro);
+}
+
+section.resultados .cta > h2 {
+    margin-bottom: 20px;
+}
