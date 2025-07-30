@@ -242,3 +242,86 @@ section.resultados .conteudo_item .destaque {
 section.resultados .cta > h2 {
     margin-bottom: 20px;
 }
+
+/* Sessão CTA */
+.sessao_cta > h1 {
+    margin-bottom: 20px;
+}
+
+.sessao_cta > h2 {
+    text-align: justify;
+    margin-inline: auto;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.sessao_cta .conteudo {
+    width: 85%;
+}
+
+.sessao_cta .conteudo_item {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sessao_cta .conteudo_titulo {
+    color: var(--cor_principal);
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.sessao_cta .conteudo_titulo :is(.destaque, i) {
+    color: var(--cor_verde_escuro);
+}
+
+.sessao_cta .conteudo_titulo h2 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.sessao_cta .conteudo_titulo i {
+    margin-right: 5px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+.sessao_cta .conteudo_item p {
+    font-size: 1.1rem;
+}
+
+.sessao_cta .conteudo_item p > i {
+    color: var(--cor_principal);
+    font-weight: bold;
+}
+
+.form {
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: var(--cor_secundaria);
+    padding: 10px 20px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor_preto);
+}
+
+footer a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
