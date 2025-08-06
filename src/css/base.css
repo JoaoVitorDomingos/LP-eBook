@@ -46,7 +46,7 @@ h2 {
     font-weight: 500;
 }
 
-p {
+p, label {
     font-family: var(--fonte_texto);
     font-size: 1.175rem;
     font-weight: 400;
