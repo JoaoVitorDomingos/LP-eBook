@@ -100,7 +100,6 @@ div.container {
 }
 
 .container_img img {
-    width: 80%;
     display: block;
     margin: auto;
 
@@ -201,7 +200,6 @@ section.depoimentos {
 
 .depoimento img {
     border-radius: 50%;
-    width: 25%;
     margin-bottom: 15px;
 }
 
@@ -361,6 +359,12 @@ form #form_enviar {
     border: none;
     background-color: var(--cor_verde_escuro);
     color: white;
+}
+
+form #form_enviar:hover {
+    background-color: var(--cor_principal);
+    color: var(--cor_preto);
+    font: bold;
 }
 
 /* Footer */
