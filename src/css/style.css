@@ -1,7 +1,7 @@
 @import url(./base.css);
 
 /* Hero Section */
-.hero {
+#hero {
     background: url("../imgs/backgrounds/back1.jpg") center center no-repeat fixed;
     background-size: cover;
 
@@ -18,29 +18,29 @@
     text-align: center;
 }
 
-.hero img {
+#hero img {
     display: block;
     margin: 40px auto;
     color: var(--cor_branco);
 }
 
-.hero h2 {
+#hero h2 {
     color: var(--cor_branco);
     text-align: justify;
     margin-bottom: 30px;
 }
 
-.hero .btn {
+#hero .btn {
     color: black;
 }
 
-.hero .btn:hover {
+#hero .btn:hover {
     background-color: var(--cor_destaque);
     color: white;
 }
 
 /* Section Conexão */
-.conexao > .container_conex {
+#conexao > .container_conex {
     display: grid;
     grid-template: repeat(4, auto) / auto;
     justify-content: center;
@@ -79,13 +79,13 @@
 }
 
 /* Section Interesse */
-section.interesse {
+section#interesse {
     background-color: var(--cor_secundaria);
     margin-bottom: 0;
     padding-bottom: 60px;
 }
 
-section.interesse > h1 {
+section#interesse > h1 {
     color: var(--cor_verde_escuro);
 }
 
@@ -171,7 +171,7 @@ div.container {
 }
 
 /* Section Depoimentos */
-section.depoimentos {
+section#depoimentos {
     background: url("../imgs/backgrounds/back2.jpg") center center no-repeat fixed;
     background-size: cover;
 
@@ -218,83 +218,83 @@ section.depoimentos {
 }
 
 /* Sessão Resultados */
-section.resultados {
+section#resultados {
     background-color: var(--cor_secundaria);
 }
 
-section.resultados > h1 {
+section#resultados > h1 {
     color: var(--cor_verde_escuro);
 }
 
-section.resultados .container_img picture img {
+section#resultados .container_img picture img {
     box-shadow: none;
 }
 
-section.resultados .conteudo_item :is(i, p) {
+section#resultados .conteudo_item :is(i, p) {
     color: var(--cor_preto);
 }
 
-section.resultados .conteudo_item .destaque {
+section#resultados .conteudo_item .destaque {
     color: var(--cor_verde_escuro);
 }
 
-section.resultados .cta > h2 {
+section#resultados .cta > h2 {
     font-size: 1.875rem;
     margin-bottom: 30px;
 }
 
 /* Sessão CTA */
-.sessao_cta > h1 {
+#sessao_cta > h1 {
     margin-bottom: 20px;
 }
 
-.sessao_cta > h2 {
+#sessao_cta > h2 {
     text-align: justify;
     margin-inline: auto;
     width: 90%;
     margin-bottom: 40px;
 }
 
-.sessao_cta .conteudo {
+#sessao_cta .conteudo {
     width: 85%;
     margin-bottom: 20px;
 }
 
-.sessao_cta .conteudo_item {
+#sessao_cta .conteudo_item {
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
 }
 
-.sessao_cta .conteudo_titulo {
+#sessao_cta .conteudo_titulo {
     color: var(--cor_principal);
 
     display: flex;
     align-items: flex-start;
 }
 
-.sessao_cta .conteudo_titulo :is(.destaque, i) {
+#sessao_cta .conteudo_titulo :is(.destaque, i) {
     color: var(--cor_verde_escuro);
 }
 
-.sessao_cta .conteudo_titulo h2 {
+#sessao_cta .conteudo_titulo h2 {
     text-align: left;
     font-weight: 600;
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
-.sessao_cta .conteudo_titulo i {
+#sessao_cta .conteudo_titulo i {
     margin-right: 5px;
     margin-top: 3px;
     font-weight: bold;
 }
 
-.sessao_cta .conteudo_item p {
+#sessao_cta .conteudo_item p {
     font-size: 1.1rem;
 }
 
-.sessao_cta .conteudo_item p > i {
+#sessao_cta .conteudo_item p > i {
     color: var(--cor_principal);
     font-weight: bold;
 }
