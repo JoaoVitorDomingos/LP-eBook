@@ -75,6 +75,7 @@
 .conex p {
     font-size: 1.075rem;
     text-indent: 3px;
+    text-align: left;
 }
 
 /* Section Interesse */
@@ -99,7 +100,7 @@ div.container {
     margin-bottom: 50px;
 }
 
-.container_img img {
+.container_img picture img {
     display: block;
     margin: auto;
 
@@ -147,7 +148,7 @@ div.container {
 
 .container_conteudo .cta h2 {
     font-family: var(--fonte_titulo_principal);
-    font-size: 1.475rem;
+    font-size: 1.7rem;
     font-weight: 600;
     color: var(--cor_verde_escuro);
 }
@@ -155,7 +156,7 @@ div.container {
 .container_conteudo .cta p {
     font-weight: 600;
     font-size: 1.1rem;
-    margin-block: 10px 20px;
+    margin-block: 20px 30px;
 }
 
 .container_conteudo .cta a {
@@ -216,7 +217,7 @@ section.depoimentos {
     font-size: 1.1rem;
 }
 
-/* Sessão depoimentos */
+/* Sessão Resultados */
 section.resultados {
     background-color: var(--cor_secundaria);
 }
@@ -225,7 +226,7 @@ section.resultados > h1 {
     color: var(--cor_verde_escuro);
 }
 
-.container_img img {
+section.resultados .container_img picture img {
     box-shadow: none;
 }
 
@@ -238,7 +239,8 @@ section.resultados .conteudo_item .destaque {
 }
 
 section.resultados .cta > h2 {
-    margin-bottom: 20px;
+    font-size: 1.875rem;
+    margin-bottom: 30px;
 }
 
 /* Sessão CTA */
@@ -310,6 +312,7 @@ form .form_grupo {
 }
 
 form label {
+    font-size: 1.275rem;
     display: block;
     margin-bottom: 7px;
 }
@@ -321,7 +324,7 @@ form input:not(input[type="submit"]) {
     background-color: var(--cor_branco2);
     border-radius: 7px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.278);
-    padding: .3em;
+    padding: .7em .3em;
     font-size: 0.9rem;
 }
 
@@ -354,6 +357,7 @@ form input:hover:-webkit-autofill {
 form #form_enviar {
     display: block;
     margin: auto;
+    padding: 0.475em 1.5em;
     
     font-size: 1rem;
     border: none;

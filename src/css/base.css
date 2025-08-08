@@ -64,7 +64,7 @@ p, label {
 
     background-color: var(--cor_principal);
     border-radius: 15px;
-    padding: 0.3em 1.2em;
+    padding: 0.65em 1.875em;
     box-shadow: 1px 1px 3px var(--_btn_shadow_color);
 
     font-size: 1.075rem;
