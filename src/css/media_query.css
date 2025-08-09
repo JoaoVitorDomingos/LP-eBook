@@ -1,0 +1,116 @@
+/* TABLET */
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 22px;
+    }
+
+    section {
+        padding: 60px;
+    }
+
+    /* Hero */
+    #hero h2 {
+        margin-bottom: 60px;
+    }
+
+    .btn {
+        font-size: 1.175rem;
+    }
+
+    /* Conexão */
+    #conexao > .container_conex {
+        row-gap: 30px;
+    }
+
+    .conex {
+        padding: 20px 30px;
+    }
+
+    /* Interesse */
+    .container_img {
+        margin-bottom: 70px;
+    }
+
+    .container_img picture img {
+        box-shadow: 15px 14px 3px rgba(0, 0, 0, 0.595);
+    }
+
+    .conteudo {
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    .conteudo_item {
+        margin-bottom: 30px;
+    }
+
+    .conteudo_item .conteudo_corpo h2 {
+        font-size: 1.475rem;
+    }
+
+    .conteudo_item .conteudo_corpo p {
+        font-size: 1.175rem;
+        font-weight: 600;
+    }
+
+    .container_conteudo .cta p {
+        margin-block-end: 50px;
+        font-size: 1.175rem;
+    }
+
+    .container_conteudo .cta h2 {
+        font-size: 1.8rem;
+    }
+
+    /* Depoimentos */
+    .container_depoimentos {
+        row-gap: 40px;
+    }
+
+    .depoimento {
+        padding: 30px;
+    }
+
+    .depoimento .depoimento_img picture img {
+        margin-bottom: 0;
+    }
+
+    /* Resultados */
+    #resultados .container_conteudo p {
+        font-size: 1.3rem;
+    }
+
+    section#resultados .cta > h2 {
+        margin-bottom: 50px;
+    }
+
+    /* CTA */
+    #sessao_cta > h2 {
+        margin-bottom: 60px;
+    }
+
+    #sessao_cta .conteudo_item {
+        margin-bottom: 50px;
+    }
+
+    form {
+        padding: 40px;
+    }
+
+    form .form_grupo {
+        margin-bottom: 40px;
+    }
+
+    form label {
+        font-size: 1.375rem;
+    }
+
+    form input:not(input[type="submit"]) {
+        font-size: 1rem;
+    }
+
+    /* Rodape */
+    footer {
+        padding: 30px;
+    }
+}
