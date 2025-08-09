@@ -5,7 +5,7 @@
     }
 
     section {
-        padding: 60px;
+        padding: 80px 60px;
     }
 
     /* Hero */
@@ -27,6 +27,10 @@
     }
 
     /* Interesse */
+    section#interesse {
+        padding-bottom: 80px;
+    }
+
     .container_img {
         margin-bottom: 70px;
     }
@@ -63,6 +67,10 @@
     }
 
     /* Depoimentos */
+    section#depoimentos {
+        padding-bottom: 80px;
+    }
+
     .container_depoimentos {
         row-gap: 40px;
     }
