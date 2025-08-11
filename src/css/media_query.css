@@ -122,3 +122,92 @@
         padding: 30px;
     }
 }
+
+/* NOTE E PC */
+@media screen and (min-width: 1200px) {
+    section {
+        padding: 80px;
+    }
+    
+    section > h1 {
+        margin-bottom: 60px;
+    }
+
+    .btn {
+        font-size: 1.075rem;
+    }
+
+    /* Conexao */
+    #conexao > .container_conex {
+        grid-template: repeat(2, 160px) / repeat(2, clamp(400px, 600px, 700px));
+        gap: 50px;
+    }
+
+    /* Interesse */
+    div.container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .container_img {
+        margin-bottom: 0;
+        margin-right: 50px;
+    }
+
+    .container_conteudo {
+        width: 50%;
+    }
+
+    .conteudo {
+        width: 100%;
+        margin-inline: 0;
+    }
+
+    .conteudo_item {
+        margin-bottom: 40px;
+    }
+
+    .conteudo_item .conteudo_corpo h2 {
+        font-size: 1.375rem;
+        margin-bottom: 5px;
+    }
+
+    .conteudo_item .conteudo_corpo p {
+        font-size: 1rem;
+    }
+
+    .container_conteudo .cta {
+        align-self: flex-end;
+    }
+
+    .container_conteudo .cta h2 {
+        font-size: 1.6rem;
+    }
+
+    .container_conteudo .cta p {
+        font-size: 1.1rem;
+    }
+
+    /* Depoimento */
+    .container_depoimentos {
+        grid-template: repeat(2, 200px) / repeat(2, clamp(400px, 600px, 700px));
+        gap: 40px;
+    }
+
+    .depoimento {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .depoimento_img {
+        margin-right: 10px;
+    }
+
+    .depoimento_conteudo h3 {
+        font-size: 1.2rem;
+    }
+
+    .depoimento_conteudo p {
+        font-size: 1rem;
+    }
+}
