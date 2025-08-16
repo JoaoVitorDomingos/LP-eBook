@@ -210,4 +210,49 @@
     .depoimento_conteudo p {
         font-size: 1rem;
     }
+
+    /* Resultados */
+
+
+    /* CTA */
+    section#sessao_cta > :is(h1, h2) {
+        width: 70%;
+        margin-inline: auto;
+    }
+
+    section#sessao_cta h1 {
+        margin-bottom: 30px;
+    }
+
+    section#sessao_cta div.container {
+        max-width: 90%;
+        margin-inline: auto;
+        justify-content: space-between;
+    }
+
+    section#sessao_cta div.container form {
+        order: -1;
+        max-width: 40%;
+    }
+
+    section#sessao_cta div.container div.conteudo {
+        max-width: 55%;
+        margin-bottom: 0;
+    }
+
+    #sessao_cta .conteudo_item {
+        margin-bottom: 70px;
+    }
+
+    #sessao_cta .conteudo_titulo h2 {
+        margin-bottom: 15px;
+        font-size: 1.3rem;
+    }
+
+    #sessao_cta .conteudo_item p {
+        font-size: 1.175rem;
+        margin-left: 50px;
+    }
+
+
 }
