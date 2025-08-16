@@ -212,6 +212,40 @@
     }
 
     /* Resultados */
+    section#resultados > h1 {
+        display: none;
+    }
+
+    section#resultados div.container {
+        max-width: 80%;
+        margin-inline: auto;
+        justify-content: space-between;
+    }
+
+    section#resultados .container_img {
+        order: 1;
+    }
+
+    section#resultados .container_conteudo > h1 {
+        display: block;
+        margin-bottom: 30px;
+        text-align: left;
+        font-size: 1.8rem;
+        color: var(--cor_preto);
+    }
+
+    section#resultados .conteudo_item {
+        margin-left: 40px;
+    }
+
+    .container_conteudo .cta {
+        width: fit-content;
+    }
+
+    section#resultados .cta > h2 {
+        text-align: left;
+        font-size: 1.7rem;
+    }
 
 
     /* CTA */

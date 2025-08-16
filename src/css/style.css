@@ -230,6 +230,10 @@ section#resultados .container_img picture img {
     box-shadow: none;
 }
 
+section#resultados .container_conteudo > h1 {
+    display: none;
+}
+
 section#resultados .conteudo_item :is(i, p) {
     color: var(--cor_preto);
 }
