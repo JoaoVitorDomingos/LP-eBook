@@ -18,7 +18,11 @@
     text-align: center;
 }
 
-#hero img {
+#hero #img_large {
+    display: none;
+}
+
+#hero #img_movel {
     display: block;
     margin: 40px auto;
     color: var(--cor_branco);

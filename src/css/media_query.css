@@ -8,13 +8,13 @@
         padding: 80px 60px;
     }
 
+    .btn {
+        font-size: 1.175rem;
+    }
+
     /* Hero */
     #hero h2 {
         margin-bottom: 60px;
-    }
-
-    .btn {
-        font-size: 1.175rem;
     }
 
     /* Conexão */
@@ -135,6 +135,28 @@
 
     .btn {
         font-size: 1.075rem;
+    }
+
+    /* Hero */
+    #hero .conteudo_overlay {
+        display: flex;
+    }
+
+    #hero #img_movel {
+        display: none;
+    }
+
+    #hero #img_large {
+        display: block;
+        color: var(--cor_branco);
+        margin-left: 80px;
+    }
+
+    #hero .conteudo_overlay > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     /* Conexao */
