@@ -32,7 +32,7 @@
 <br>
 
 <h2 id="acesso">🚀 Acesse o Projeto</h2>
-<p>Veja o projeto você mesmo: <a href="#" target="_blank">LP Ebook</a></p>
+<p>Veja o projeto você mesmo: <a href="https://joaovitordomingos.github.io/LP-eBook/" target="_blank">LP Ebook</a></p>
 
 <br>
 <br>
