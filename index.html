@@ -25,7 +25,7 @@
 <body>
     <header>
         <div class="logo">
-            <div class="icon">
+            <div class="container-icon">
                 <i class="fa-solid fa-leaf"></i>
             </div>
 
@@ -43,6 +43,79 @@
 
         <a href="#" class="btn">Baixar e-book</a>
     </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <div class="badge hero-badge">
+                    <i class="fa-solid fa-leaf"></i>
+                    <p>E-book Gratuito · +50 Receitas</p>
+                </div>
+
+                <h1>Transforme sua <strong>alimentação</strong> com receitas saudáveis</h1>
+
+                <h3>Mais de 50 receitas práticas, prontas em até 30 minutos, com ingredientes simples que você já tem em
+                    casa. <strong>Totalmente gratuito.</strong></h3>
+
+                <form
+                    action="https://gmail.us16.list-manage.com/subscribe/post?u=5f65d262f1d411bce929b815d&amp;id=2bdd2f48d9&amp;f_id=009397e1f0"
+                    method="post" id="form-hero" name="form-hero" class="form" target="_blank">
+                    <input type="email" name="hero-email" class="input" id="hero-email" required placeholder="Seu melhor e-mail">
+
+                    <button type="submit" name="hero-submit" id="hero-submit" class="btn btn-accent">
+                        <i class="fa-solid fa-download"></i>
+                        Baixar gratuitamente
+                    </button>
+                </form>
+
+                <p class="form-warning">
+                    <i class="fa-solid fa-shield"></i>
+                    Seus dados estão seguros. Sem spam, prometemos.
+                </p>
+
+                <div class="hero-dados">
+                    <div>
+                        <p class="dados-num"><strong>+12.000</strong></p>
+                        <p class="dados-texto">downloads</p>
+                    </div>
+
+                    <div>
+                        <p class="dados-num"><strong>4,9</strong></p>
+                        <p class="dados-texto">avaliação média</p>
+                    </div>
+
+                    <div>
+                        <p class="dados-num"><strong>+50</strong></p>
+                        <p class="dados-texto">receitas inclusas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-img">
+                <picture>
+                    <source media="(max-width: 750px)" srcset="./src/img/ebook_426.png" type="image/png">
+                    <source media="(max-width: 1200px)" srcset="./src/img/ebook_588.png" type="image/png">
+                    <img src="src/img/ebook_616.png" alt="Imagem do e-book">
+                </picture>
+
+                <div id="badge-avaliacao" class="badge badge-flutuante">
+                    <i class="fa-solid fa-star"></i>
+                    <p><strong>4,9</strong> avaliação</p>
+                </div>
+
+                <div id="badge-download" class="badge badge-flutuante">
+                    <div class="container-icon">
+                        <i class="fa-solid fa-download"></i>
+                    </div>
+
+                    <div>
+                        <p><strong>Download instantâneo</strong></p>
+                        <p>Acesso imediato após cadastro</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

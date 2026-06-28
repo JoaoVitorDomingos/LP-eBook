@@ -16,8 +16,7 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: var(--font-display);
   font-weight: var(--font-display-weight);
 }
@@ -31,8 +30,11 @@ h2 {
 }
 
 h3 {
+  font-family: var(--font-body);
   font-size: var(--font-size-subheading);
+  font-weight: var(--font-body-weight);
   color: var(--color-text-secondary);
+  line-height: 28px;
 }
 
 h4 {
@@ -52,6 +54,12 @@ a {
   color: inherit;
 }
 
+img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 section {
   padding: 96px var(--space-3);
 }
@@ -59,6 +67,18 @@ section {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.container-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 32px;
+  height: 32px;
+
+  background-color: var(--color-primary);
+  border-radius: var(--radius-sm);
 }
 
 .btn {
@@ -89,6 +109,35 @@ section {
   background-color: var(--color-accent);
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  gap: var(--space-2);
+}
+
+.input {
+  width: 100%;
+
+  padding: 12px var(--space-2);
+  height: 50px;
+
+  border-radius: var(--radius-md);
+  border: var(--border-primary);
+
+  background: #FFF;
+
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  line-height: normal;
+}
+
+.input::placeholder {
+  color: var(--color-text-secondary);
+  font-family: var(--font-body);
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -100,4 +149,40 @@ section {
   border-radius: var(--radius-md);
   border: var(--border-primary);
   background: var(--color-surface);
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+
+  padding: var(--space-1) var(--space-2);
+  gap: 6px;
+
+  border: 0.8px solid #bbf7d0;
+  border-radius: var(--radius-lg);
+
+  background-color: #dcfce7;
+  box-shadow: var(--shadow-sm);
+}
+
+.badge > * {
+  color: var(--color-primary);
+  font-size: var(--font-size-body-sm);
+}
+
+.badge-flutuante {
+  display: inline-flex;
+  align-items: center;
+
+  position: absolute;
+
+  padding: var(--space-1) var(--space-2);
+
+  background-color: var(--color-surface);
+
+  border: var(--border-primary);
+  border-radius: var(--radius-lg);
+
+  box-shadow: var(--shadow-md);
 }

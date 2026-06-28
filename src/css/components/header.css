@@ -16,21 +16,11 @@ header nav {
     align-items: center;
 }
 
-.logo .icon {
+.logo .container-icon {
     margin-right: var(--space-1);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 32px;
-    height: 32px;
-
-    background-color: var(--color-primary);
-    border-radius: var(--radius-sm);
 }
 
-.icon i {
+.container-icon i {
     color: var(--color-surface);
     font-size: var(--font-size-body);
 }
