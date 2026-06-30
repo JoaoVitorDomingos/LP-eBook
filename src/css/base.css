@@ -27,6 +27,7 @@ h1 {
 
 h2 {
   font-size: var(--font-size-heading);
+  line-height: 36px;
 }
 
 h3 {
@@ -138,6 +139,15 @@ section {
   font-family: var(--font-body);
 }
 
+.container-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  gap: var(--space-3);
+
+  margin-top: var(--space-5);
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -149,6 +159,14 @@ section {
   border-radius: var(--radius-md);
   border: var(--border-primary);
   background: var(--color-surface);
+
+  text-align: start;
+}
+
+.card > p {
+  font-size: var(--font-size-body-sm);
+  color: var(--color-text-secondary);
+  line-height: 22px;
 }
 
 .badge {
@@ -185,4 +203,18 @@ section {
   border-radius: var(--radius-lg);
 
   box-shadow: var(--shadow-md);
+}
+
+.emoji {
+  font-size: 30px;
+}
+
+.line {
+  margin-block: var(--space-5) var(--space-1);
+  margin-inline: auto;
+
+  width: 2px;
+  height: 60px;
+  
+  background: linear-gradient(180deg, #E2E8F0 0%, rgba(0, 0, 0, 000) 100%);
 }

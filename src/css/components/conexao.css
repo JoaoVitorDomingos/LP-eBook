@@ -1,0 +1,30 @@
+#conexao {
+    text-align: center;
+}
+
+#conexao .badge:first-child {
+    display: inline-block;
+    color: var(--color-primary-hover);
+}
+
+#conexao h2 {
+    margin-block: var(--space-2) 12px;
+}
+
+#conexao h2 > strong {
+    color: var(--color-accent);
+}
+
+#conexao .badge:last-child {
+    display: inline-flex;
+}
+
+#conexao .badge:last-child > * {
+    color: var(--color-primary-hover);
+}
+
+@media screen and (min-width: 768px) {
+    #conexao .container-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
