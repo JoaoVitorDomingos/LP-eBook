@@ -1,0 +1,87 @@
+#interesse {
+    text-align: center;
+    background-color: var(--color-surface);
+}
+
+#interesse > .badge {
+    display: inline-flex;
+}
+
+#interesse > h2 > strong {
+    color: var(--color-primary);
+}
+
+#interesse .card span {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+}
+
+#interesse .card:nth-child(odd) span {
+    background: #DCFCE7;
+    color: var(--color-primary);
+}
+
+#interesse .card:nth-child(even) span {
+    background: #FFEDD5;
+    color: var(--color-accent);
+}
+
+#interesse .card span > i {
+    font-size: 20px;
+    margin: auto;
+}
+
+#interesse .card-interesse {
+    margin-top: 40px;
+    padding: var(--space-3);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--space-2);
+
+    background-color: var(--color-background);
+}
+
+#interesse .card-interesse > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#interesse .card-interesse > div i {
+    color: var(--color-primary);
+}
+
+#interesse .card-interesse > div p {
+    font-family: var(--font-ui);
+    font-size: var(--font-size-body-sm);
+}
+
+@media screen and (min-width: 768px) {
+    #interesse .container-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #interesse .card-interesse {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #interesse .container-cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 1500px;
+    }
+
+    #interesse .card-interesse {
+        max-width: 1500px;
+    }
+}

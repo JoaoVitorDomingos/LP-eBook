@@ -7,11 +7,7 @@
     color: var(--color-primary-hover);
 }
 
-#conexao h2 {
-    margin-block: var(--space-2) 12px;
-}
-
-#conexao h2 > strong {
+#conexao > h2 > strong {
     color: var(--color-accent);
 }
 
