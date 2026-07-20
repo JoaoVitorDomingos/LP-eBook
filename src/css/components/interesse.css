@@ -78,10 +78,5 @@
 @media screen and (min-width: 1200px) {
     #interesse .container-cards {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        max-width: 1500px;
-    }
-
-    #interesse .card-interesse {
-        max-width: 1500px;
     }
 }
