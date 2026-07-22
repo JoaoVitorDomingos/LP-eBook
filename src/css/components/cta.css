@@ -1,0 +1,135 @@
+#cta {
+    background: linear-gradient(135deg, #14532D 0%, #16A34A 50%, #22C55E 100%);
+
+    text-align: center;
+
+    position: relative;
+
+    margin-bottom: 0;
+
+    overflow: hidden;
+}
+
+#cta .container {
+    max-width: 800px;
+}
+
+#cta .badge {
+    display: inline-flex;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+}
+
+#cta .badge > * {
+    color: #FFFFFF;
+}
+
+#cta h2 {
+    color: #FFFFFF;
+
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+#cta h3 {
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.container-form {
+    margin-top: var(--space-5);
+    padding: var(--space-3);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.10);
+}
+
+#cta-submit {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    align-self: stretch;
+    padding: 12px 24px;
+
+    border-radius: 14px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
+    border: none;
+}
+
+.container-form > p {
+    text-align: center;
+    font-size: var(--font-size-body-sm);
+    color: var(--color-text-secondary);
+
+    margin-top: 12px;
+}
+
+.container-avisos {
+    margin-top: var(--space-4);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    row-gap: 15px;
+}
+
+.aviso {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.aviso > p {
+    font-family: var(--font-ui);
+    font-size: var(--font-size-body-sm);
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.aviso > i {
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.container-back {
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.04);  
+}
+
+#cta .container-back:has(+ .container-back) {
+    width: 380px;
+    height: 380px;
+
+    position: absolute;
+    top: -100px;
+    right: -100px;
+}
+
+#cta .container-back:last-of-type {
+    width: 250px;
+    height: 250px;
+
+    position: absolute;
+    bottom: -70px;
+    left: -70px;
+}
+
+@media screen and (min-width: 758px) {
+    .form-cta {
+        flex-direction: row;
+    }
+
+    #cta-submit {
+        flex-shrink: 0;
+    }
+
+    .container-avisos {
+        justify-content: center;
+
+        gap: var(--space-3);
+    }
+}
