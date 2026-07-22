@@ -1,0 +1,87 @@
+#faq {
+    text-align: center;
+}
+
+#faq .badge {
+    display: inline-flex;
+    color: var(--color-primary-hover);
+}
+
+.container-faq {
+    margin-top: var(--space-5);
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    text-align: start;
+
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+.accordion {
+    padding: var(--space-2) var(--space-3);
+
+    background-color: #FFF;
+
+    border: var(--border-primary);
+    border-radius: var(--radius-md);
+
+    box-shadow: var(--shadow-sm);
+
+    cursor: pointer;
+}
+
+.accordion-header {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: none;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.accordion-header span {
+    font-family: var(--font-ui);
+    font-weight: var(--font-ui-weight);
+    font-size: var(--font-size-body);
+
+    color: var(--color-text-primary);
+    text-align: start;
+}
+
+.accordion-header i {
+    font-size: var(--font-size-body-sm);
+    color: var(--color-primary);
+}
+
+.accordion-body {
+    color: var(--color-text-secondary);
+    
+    font-size: var(--font-size-body-sm);
+
+    opacity: 0;
+    height: 0;
+
+    overflow: hidden;
+    transition: opacity .3s;
+}
+
+.accordion-body.active {
+    opacity: 1;
+    height: 100%;
+    padding-top: var(--space-2);
+}
+
+.arrow {
+    transition: transform .2s linear;
+}
+
+.accordion:has(.active) .arrow {
+    transform: rotate(180deg);
+}
