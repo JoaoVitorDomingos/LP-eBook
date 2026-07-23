@@ -1,0 +1,42 @@
+#section-carroussel {
+    background-color: var(--color-surface);
+    padding: var(--space-3) 20px;
+}
+
+.container-carroussel {
+    max-width: 1000px;
+}
+
+.carroussel {
+    display: flex;
+    overflow-x: auto;
+}
+
+.carroussel::-webkit-scrollbar {
+    display: none;
+}
+
+.carroussel-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-2);
+
+    padding-right: var(--space-2);
+
+    animation: spin 10s infinite linear;
+}
+
+.carroussel-item {
+    flex: 0 0 192px;
+    height: 128px;
+}
+
+.carroussel-item img {
+    border-radius: var(--radius-md);
+}
+
+@keyframes spin {
+    from { translate: 0; }
+    to { translate: -100%; }
+}
